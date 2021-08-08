@@ -17,6 +17,7 @@ Imagine you were thinking of watching a movie... Tune into 123Movies and find th
 If you don't see the movies coming up in the home page, login to the application using below credentials.
 
 username - revant
+
 password - RevantMovies!1
 
 ### Unit tests
