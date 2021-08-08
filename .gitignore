@@ -1,0 +1,9 @@
+.idea/
+.DS_STORE
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+PetsAlone.db
+.vs/

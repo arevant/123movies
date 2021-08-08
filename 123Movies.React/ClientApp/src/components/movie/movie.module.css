@@ -1,0 +1,8 @@
+.thumbnail {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: .5rem;
+}

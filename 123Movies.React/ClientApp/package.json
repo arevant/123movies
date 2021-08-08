@@ -1,0 +1,91 @@
+{
+  "name": "movies",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.15",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "connected-react-router": "^6.9.1",
+    "dotenv": "^8.2.0",
+    "enzyme": "^3.11.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "primeicons": "^4.1.0",
+    "primereact": "^6.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.0",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "4.0.3",
+    "react-test-renderer": "^17.0.2",
+    "react-transition-group": "^4.4.2",
+    "reactstrap": "^8.9.0",
+    "redux-form": "^8.3.7",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.7",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router": "^5.1.15",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/redux-persist": "^4.3.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(tsx|ts)?$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!redux-persist)/"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.css$": "identity-obj-proxy"
+    },
+    "globals": {
+      "window": {}
+    }
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  }
+}

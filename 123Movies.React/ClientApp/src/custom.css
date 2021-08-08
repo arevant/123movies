@@ -1,0 +1,40 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+body {
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loginHeader {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.margin-left {
+  margin-left: 8px;
+}
+
+.margin-right {
+  margin-right: 8px;
+}
