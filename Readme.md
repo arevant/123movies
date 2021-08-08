@@ -15,6 +15,7 @@ Imagine you were thinking of watching a movie... Tune into 123Movies and find th
 -	Set 123Movies.React as startup project and debug the solution to run it.
 
 If you don't see the movies coming up in the home page, login to the application using below credentials.
+
 username - revant
 password - RevantMovies!1
 
